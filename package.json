@@ -9,8 +9,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "create-table": "node src/createTable.js",
-    "seed-table": "node src/seedTable.js"
+    "create-table": "node scripts/create-tables.js",
+    "seed-table": "node scripts/seed-db.js"
   },
   "dependencies": {
     "dotenv": "^17.3.1",
