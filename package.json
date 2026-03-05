@@ -9,7 +9,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "create-table": "node src/createTable.js",
+    "seed-table": "node src/seedTable.js"
   },
   "dependencies": {
     "dotenv": "^17.3.1",

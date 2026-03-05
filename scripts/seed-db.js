@@ -13,4 +13,4 @@ async function addUser(name, email) {
 }
 
 // Teste de inserção de usuário no banco de dados
-addUser("Israel", "israel@exemplo.com");
+addUser("John Doe", "john@exemple.com");
